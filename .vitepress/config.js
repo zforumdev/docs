@@ -30,6 +30,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zforumdev/' }
-    ]
+    ],
+
+    search: {
+      provider: 'local'
+    }
   }
 })
